@@ -71,9 +71,10 @@ div {
     margin: auto;
 }
 .container1 nav {
+    width: 800px;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
     color: grey;
     padding-top: 50px;
     padding-bottom: 50px;
@@ -84,7 +85,7 @@ div {
 .container1 a {
 	text-decoration: none;
     color: grey;
-    
+    align-self: end;
 }
 
 .img1 {
@@ -215,4 +216,71 @@ footer nav a {
 .box#tenth {
     
     background: dodgerblue;
+}
+
+.about {
+    border-bottom: dotted black 2px;
+    padding-bottom: 30px;
+}
+.parent-container {
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: dotted black 2px;
+    justify-content: space-evenly;
+    
+}
+
+.item {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 50%;
+    border-bottom: dotted black 2px;
+    
+}
+
+.item img {
+    padding-bottom: 15px;
+}
+
+
+
+.button {
+    background: white;
+    border: solid black 3px;
+    border-radius: 15px;
+    width: 150px;
+    height: 50px;;
+    margin-top: 30px;
+    transition: all .5s;
+    cursor: pointer;
+    
+}
+
+.button:hover {
+    background-color: lightgrey;
+    color: black;
+}
+
+.button button {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+    cursor: pointer;
+  }
+  
+  .button button:after {
+    content: '\00bb';
+    position: absolute;
+    transition: 0.5s;
+  }
+  
+  .button:hover {
+    padding-right: 25px;
+  }
+  
+
+.work-together {
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
