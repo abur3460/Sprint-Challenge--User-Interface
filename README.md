@@ -38,7 +38,7 @@ Semantic HTML is the way you structure your HTML so it is easy to understand and
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
 
-1 - display: block styles the page as each item being a "box" on a new line, and inline does not have the box model.
+1 - display: block styles the page as each item being a "box" on a new line, and inline does not start each on a new line.
 
 2 - inline has no width or heigth, and block does.
 
