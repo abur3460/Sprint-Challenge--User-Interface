@@ -66,9 +66,31 @@ p {
     line-height: 1.4;
 }
 
-.container {
+div {
     width: 800px;
-    margin: 0 auto;
+    margin: auto;
+}
+.container1 nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: grey;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 20px;
+
+}
+
+.container1 a {
+	text-decoration: none;
+    color: grey;
+    
+}
+
+.img1 {
+   width: 800px;
+   margin-bottom: 25px;
+   align-items: center;
 }
 
 .top-content {
@@ -144,3 +166,5 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* box coloring */
